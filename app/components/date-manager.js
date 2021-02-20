@@ -13,6 +13,12 @@ export default class DateManagerComponent extends Component {
     }, 1);
   }
 
+  // eslint-disable-next-line
+  willDestroyElement() {
+    clearInterval(this.intervalUpdater);
+    super.willDestroyElement(...arguments);
+  }
+
   @action
   updateTime() {
     this.date = new Date();
