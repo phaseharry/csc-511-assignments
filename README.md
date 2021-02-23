@@ -1,7 +1,6 @@
 # date-app
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ember project that displays the times for 5 cities. Local time is defaulted to EST time.
 
 ## Prerequisites
 
